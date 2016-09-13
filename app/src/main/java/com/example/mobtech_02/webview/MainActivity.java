@@ -8,6 +8,7 @@ import android.webkit.WebChromeClient;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
+import android.widget.Toast;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -29,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
         webpage.setWebChromeClient(new WebChromeClient());
 //        webpage.loadUrl("http://www.rbsk-karnataka.com/");
      //   webpage.loadUrl("https://www.youtube.com");
-
+        Toast.makeText(MainActivity.this, "latitude logitudes are hotcode values", Toast.LENGTH_SHORT).show();
         webpage.loadUrl("http://maps.google.com/maps?" + "saddr=43.0054446,-87.9678884" + "&daddr=42.9257104,-88.0508355");
       /*    webSettings.setUseWideViewPort(true);
         webSettings.setLoadWithOverviewMode(true);*/
