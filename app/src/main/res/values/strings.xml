@@ -2,4 +2,5 @@
     <string name="app_name">Webview</string>
     <string name="action_settings">Settings</string>
     <string name="yourWebSiteName">vinformax</string>
+    <string name="embed_and_play_youtube_video_in_android_webview_tutorial_and_example">play with webURL</string>
 </resources>

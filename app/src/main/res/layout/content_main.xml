@@ -7,7 +7,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Embed and Play YouTube Video in Android WebView Tutorial and Example" />
+        android:text="@string/embed_and_play_youtube_video_in_android_webview_tutorial_and_example" />
 
     <WebView
         android:id="@+id/mWebView"
